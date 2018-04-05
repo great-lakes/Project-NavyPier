@@ -1,3 +1,4 @@
+require('dotenv').config()
 var uuid = require('uuid/v4')
 var Protocol = require('azure-iot-device-mqtt').Mqtt
 var Client = require('azure-iot-device').Client
