@@ -1,5 +1,5 @@
 {
-  "name": "Project-NavyPier",
+  "name": "project-navy-pier",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/great-lakes/Project-NavyPier/issues"
   },
-  "homepage": "https://github.com/great-lakes/Project-NavyPier#readme"
+  "homepage": "https://github.com/great-lakes/Project-NavyPier#readme",
+  "dependencies": {
+    "azure-event-hubs": "0.0.8",
+    "azure-iot-device-mqtt": "^1.4.0",
+    "uuid": "^3.2.1"
+  }
+  }
 }
